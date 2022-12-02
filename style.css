@@ -127,9 +127,48 @@
   font-weight: bold;
 }
 
+.explore-box{
+  height: 250px;
+  padding-left: 75px;
+  padding-right: 75px;
+  border: 2px solid rgb(186, 186, 186);
+  border-radius: 15px;
+  background-color: transparent;
+  position: relative;
+}
 
+.explore-box-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-/* -------------------Preset---------------------------------------Preset------------------------------------preset--------------------------- */
+/* -------------------------The smartest choice-------------------------The smartest choice------------------------- */
+
+.The-smartest-choice-icon-box{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background-color: #C7EBFF;
+  color: #0D6EFD;
+  border-radius: 10px;
+}
+
+.The-smartest-choice-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.The-smartest-choice-content-head{
+  font-size: 20px;
+  font-weight: 500;
+  color: #374957;
+}
+
+/* -------------------Preset---------------------------------------Preset------------------------------------preset*/
 .a-link {
   text-decoration: none;
   color: gray;
@@ -175,6 +214,9 @@
   .navbar-brand {
     display: none;
   }
+  .hide-blw-1200-preset{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -216,6 +258,15 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+  .hide-blw-1250-preset{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .hide-abv-1250-preset{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 990px) {
@@ -227,6 +278,9 @@
   }
   .Unlock-your-inner-creator-img{
     width: 180px;
+  }
+  .explore-box{
+    height: 220px;
   }
 }
 
@@ -281,6 +335,12 @@
     width: 150px;
     margin-left: 1px;
     margin-right: 1px;
+  }
+
+  .explore-box{
+    height: 180px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
 
