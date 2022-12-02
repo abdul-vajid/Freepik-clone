@@ -167,8 +167,26 @@
   font-weight: 500;
   color: #374957;
 }
+/* -------------------------Footer-------------------------Footer-------------------------  */
+.footer-bg{
+  background-color: #374957;
+  padding-top: 70px;
+}
+.footer-list{
+  list-style: none;
+  color: white;
+}
 
-/* -------------------Preset---------------------------------------Preset------------------------------------preset*/
+.footer-list h6{
+  color: white;
+}
+
+.footer-list li{
+  color: #5f7d95;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* -------------------Preset---------------------------------------Preset------------------------------------*/
 .a-link {
   text-decoration: none;
   color: gray;
