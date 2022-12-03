@@ -186,6 +186,37 @@
   font-size: 14px;
   font-weight: 500;
 }
+
+.social-media-icon{
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.fb{
+  background-color: #0D6EFD;
+}
+
+.twitter{
+  background-color: #47A5ED;
+}
+
+.pin{
+  background-color: #BE1E24;
+}
+
+.insta{
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.ytube{
+  background-color: #AC0000;
+}
 /* -------------------Preset---------------------------------------Preset------------------------------------*/
 .a-link {
   text-decoration: none;
@@ -195,6 +226,10 @@
 .trasparent-btn{
   background-color: transparent;
   border: none;
+}
+
+.font-size-13{
+  font-size: 13px;
 }
 
 .text-weight-500{
@@ -216,6 +251,11 @@
 .overflow-scroll-preset{
   overflow-x: scroll;
   display: flex;
+}
+
+.color-light-grey-line{
+  background-color: white;
+  border: 1px solid white;
 }
 
 /* -------------------Media Queries---------------------------------------Media Queries------------------------------------Media Queries--------------------------- */
@@ -305,6 +345,10 @@
 @media only screen and (min-width: 990px) {
   .hide-screen-width-abv-1000{
     display: none;
+  }
+  .signature-div{
+    display: flex;
+    justify-content: space-between;
   }
 }
 
